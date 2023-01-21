@@ -5,12 +5,12 @@
 
 <div class="container" class:has-drawer="{page === 'guide'}" on:click="{drawerOpen.close}">
 	<span class="drawer-button" on:click|stopPropagation="{drawerOpen.toggle}">&#9776;</span>
-	<a rel="prefetch" href="guide/en/" class="logo"><span class="logo-text">rollup.js</span></a>
+	<a rel="prefetch" href="guide/zh/" class="logo"><span class="logo-text">rollup.js</span></a>
 
 	<nav>
 		<ul class="primary">
 			<li>
-				<a rel="prefetch" class:active="{page === 'guide'}" href="guide/en/" sapper:noscroll
+				<a rel="prefetch" class:active="{page === 'guide'}" href="guide/zh/" sapper:noscroll
 					>guide</a
 				>
 			</li>
